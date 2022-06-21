@@ -19,13 +19,25 @@ let d=parseInt(n/1000)%10;
 let e=parseInt(n/10000);
 
 
+
 if(a==b||a==c||a==d||a==e){
-    console.log('YES')
+    console.log('yes')
 }
+else if(b==a||b==c||b==d||b==e){
+    console.log('yes')}
+
+else if(c==a||c==b||c==d||c==e){
+        console.log('yes')}
+
+else if(d==a||d==b||d==c||d==e){
+            console.log('yes')}
+else if(e==a||e==b||e==c||e==d){
+     console.log('yes')}
+
 else{
-    console.log('NO')
+    console.log('no')
 }
-  
+
 });
 
 
